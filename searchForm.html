@@ -1,0 +1,41 @@
+<div class="flex right">
+    <select id="cata" style="width: 80px;">
+        <option value="0" selected>전체</option>
+        <option value="1">제목</option>
+        <option value="2">내용</option>
+    </select>
+    <input id="info-key" class="input-text" style="margin: 0 10px;" placeholder="검색어를 입력하세요">
+    <button id="info-search" class="check-btn" onclick="findkey()">검색</button>
+</div>
+<table class="mt-4" style="font-weight: bold">
+    <tr class="view-point">
+        <td>
+            <input type="radio" name="accordion" id="answer01">
+            <label for="answer01">
+                <div class="flex between title-wrap">
+                    <p class="title">2022년 2분기 선불전자지급수단 충전금 관리 현황 공지</p>
+                    <p class="pe-5">2022-09-02</p>
+                </div>
+                <em></em>
+            </label>
+            <div class="cont-wrap">
+                <p class="content">공지사항 내용예시</p>
+            </div>
+        </td>
+    </tr>
+    <tr class="view-point">
+        <td>
+            <input type="radio" name="accordion" id="answer02">
+            <label for="answer02">
+                <div class="flex between title-wrap">
+                    <p class="title">전자금융거래 이용약관 개정에 따른 공지</p>
+                    <p class="pe-5">2022-09-02</p>
+                </div>
+                <em></em>
+            </label>
+            <div class="cont-wrap">
+                <p class="content">공지사항 내용예시</p>
+            </div>
+        </td>
+    </tr>
+</table>
